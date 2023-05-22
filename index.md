@@ -1,5 +1,11 @@
 ## UnitSpeech: Speaker-adaptive Speech Synthesis with Untranscribed Data
 
+### Authors
+- Heeseung Kim <a href="gmltmd789@snu.ac.kr">gmltmd789@snu.ac.kr</a>
+- Sungwon Kim <a href="ksw930306@snu.ac.kr">ksw0306@snu.ac.kr</a>
+- Jiheum Yeom <a href="quilava1234@snu.ac.kr">quilava1234@snu.ac.kr</a>
+- Sungroh Yoon (Corresponding author) <a href="sryoon@snu.ac.kr">sryoon@snu.ac.kr</a>
+
 ### Abstract
 
 We propose UnitSpeech, a speaker-adaptive speech synthesis method that fine-tunes a diffusion-based text-to-speech (TTS) model using minimal untranscribed data. To achieve this, we use the self-supervised unit representation as a pseudo transcript and integrate the unit encoder into the pre-trained TTS model. We train the unit encoder to provide speech content to the diffusion-based decoder and then fine-tune the decoder for speaker adaptation to the reference speaker using a single <unit, speech> pair. UnitSpeech performs speech synthesis tasks such as TTS and voice conversion (VC) in a personalized manner without requiring model re-training for each task. UnitSpeech achieves comparable and superior results on personalized TTS and any-to-any VC tasks compared to previous baselines. Our model also shows widespread adaptive performance on real-world data and other tasks that use a unit sequence as input.
