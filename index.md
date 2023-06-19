@@ -1,6 +1,6 @@
 ## UnitSpeech: Speaker-adaptive Speech Synthesis with Untranscribed Data (INTERSPEECH 2023)
 
-- [Paper](https://github.com/gmltmd789/UnitSpeech)
+- Paper will be released soon.
 - [Code](https://github.com/gmltmd789/UnitSpeech)
 
 ### Authors
