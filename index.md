@@ -481,3 +481,15 @@ Reference translation: Living in Equatorial Guinea, Cameroon, Central African Re
 		</tr>
 	</tbody>
 </table>
+
+## Citation
+```
+@misc{kim2023unitspeech,
+      title={UnitSpeech: Speaker-adaptive Speech Synthesis with Untranscribed Data}, 
+      author={Heeseung Kim and Sungwon Kim and Jiheum Yeom and Sungroh Yoon},
+      year={2023},
+      eprint={2306.16083},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD}
+}
+```
